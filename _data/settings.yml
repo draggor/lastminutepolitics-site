@@ -11,21 +11,14 @@ social:
   - {icon: 'twitter', type: "brand", link: 'https://twitter.com/LastMinutePol'}
   - {icon: 'youtube', type: "brand", link: 'https://www.youtube.com/channel/UCjCsbAHwJUaRRVLdOaEnWxA'}
   - {icon: 'envelope', type: "solid", link: 'mailto:lastminutepoliticspodcast@gmail.com'}
-  - {icon: 'rss', type: "solid", link: "#"}
+  - {icon: 'rss', type: "solid", link: "https://feed.podbean.com/lastminutepolitics/feed.xml"}
 
 websites-podcast:
   - {name: 'Apple Podcast', link: 'https://www.patreon.com/LastMinutePolitics'}
   - {name: 'Spotify', link: 'https://open.spotify.com/show/18rMdpfy0mZxEpmyPyjzGO'}
   - {name: 'YouTube', link: 'https://www.youtube.com/channel/UCjCsbAHwJUaRRVLdOaEnWxA'}
-  - {name: 'Android', link: '#'}
-  - {name: 'Spreaker', link: '#'}
   - {name: 'Google Podcast', link: 'https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2xhc3RtaW51dGVwb2xpdGljcy9mZWVkLnhtbA'}
-  - {name: 'Anchor', link: '#'}
-  - {name: 'Castbox', link: '#'}
-  - {name: 'Overcast', link: '#'}
-  - {name: 'RadioPublic', link: '#'}
-  - {name: 'Breaker', link: '#'}  
-  - {name: 'RSS', link: '#'}
+  - {name: 'RSS', link: 'https://feed.podbean.com/lastminutepolitics/feed.xml'}
 
 translate-date: true #See _includes/date.html to translate the months' name
 shownotes: true
