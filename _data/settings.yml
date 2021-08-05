@@ -2,26 +2,24 @@ analytics-id:
 #Pages
 pages:
   - {name: 'Episodes', link: 'episodes.html'}
-  - {name: 'Patreon', link: '#'}
+  - {name: 'Patreon', link: 'https://www.patreon.com/LastMinutePolitics'}
   - {name: 'Shop', link: '#'}
-  - {name: 'GitHub', link: 'https://github.com/PandaSekh'}
+  - {name: 'GitHub', link: 'https://github.com/Draggor'}
   - {name: 'Get This Theme', link: 'https://github.com/PandaSekh/Jekyll-Podcaster'}
 
 social:
-  - {icon: 'instagram', type: "brand", link: '#'}
-  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/ArteLettura'}
-  - {icon: 'facebook', type: "brand", link: '#'}
-  - {icon: 'youtube', type: "brand", link: '#'}  
-  - {icon: 'envelope', type: "solid", link: 'mailto:alessiofranceschi2@gmail.com'}
+  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/LastMinutePol'}
+  - {icon: 'youtube', type: "brand", link: 'https://www.youtube.com/channel/UCjCsbAHwJUaRRVLdOaEnWxA'}
+  - {icon: 'envelope', type: "solid", link: 'mailto:lastminutepoliticspodcast@gmail.com'}
   - {icon: 'rss', type: "solid", link: "#"}
 
 websites-podcast:
-  - {name: 'Apple Podcast', link: '#'}
-  - {name: 'Spotify', link: '#'}
-  - {name: 'YouTube', link: '#'}
+  - {name: 'Apple Podcast', link: 'https://www.patreon.com/LastMinutePolitics'}
+  - {name: 'Spotify', link: 'https://open.spotify.com/show/18rMdpfy0mZxEpmyPyjzGO'}
+  - {name: 'YouTube', link: 'https://www.youtube.com/channel/UCjCsbAHwJUaRRVLdOaEnWxA'}
   - {name: 'Android', link: '#'}
   - {name: 'Spreaker', link: '#'}
-  - {name: 'Google Podcast', link: '#'}
+  - {name: 'Google Podcast', link: 'https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2xhc3RtaW51dGVwb2xpdGljcy9mZWVkLnhtbA'}
   - {name: 'Anchor', link: '#'}
   - {name: 'Castbox', link: '#'}
   - {name: 'Overcast', link: '#'}
