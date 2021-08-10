@@ -51,7 +51,6 @@
         .content{
             .post{
                 position: relative;
-                height: 262px;
                 .player-container{
                     position: absolute;
                     bottom: 0;
@@ -81,7 +80,6 @@
                 img{
                     height: 135px;
                 }    
-            height: 230px;
             }
         }
             .sidebar{
@@ -96,7 +94,6 @@
     .container{
         .content{
             .post{
-                height: 300px;
                 img{
                     height: 135px;
                 }
@@ -144,9 +141,8 @@
         .sidebar{
             margin-top: 30px;
             width: 50% !important;
-        }           
+        }
         .post{
-            height: 325px !important;
             .info{
                 font-size: 0.95rem;
             }
@@ -174,7 +170,6 @@
  .container{
      .content{
          .post{
-             height: 350px;
              h2{
                 a{
                     font-size: 0.98rem;

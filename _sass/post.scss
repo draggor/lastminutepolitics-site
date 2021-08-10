@@ -38,6 +38,20 @@
                 background-color: rgba(1,160,228,0.3);
                 border-bottom: none;
             }
+            ul{
+                margin-top: 10px;
+                list-style-type: upper-roman;
+                font-size: 1.1rem;
+                li{
+                    margin-bottom: 3px;
+                    a{
+                        color: $base-color;
+                    }
+                    a:hover{
+                        text-decoration: underline;
+                    }
+                }
+            }
             .video{
                 display: block;
                 margin-left: auto;

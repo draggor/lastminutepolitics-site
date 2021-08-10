@@ -3,25 +3,26 @@ analytics-id:
 pages:
   - {name: 'Episodes', link: 'episodes.html'}
   - {name: 'Patreon', link: 'https://www.patreon.com/LastMinutePolitics'}
-  - {name: 'Shop', link: '#'}
-  - {name: 'GitHub', link: 'https://github.com/Draggor'}
-  - {name: 'Get This Theme', link: 'https://github.com/PandaSekh/Jekyll-Podcaster'}
 
 social:
-  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/LastMinutePol'}
+  - {icon: 'podcast', type: 'solid', link: 'https://lastminutepolitics.podbean.com/'}
+  - {icon: 'spotify', type: 'brand', link: 'https://open.spotify.com/show/18rMdpfy0mZxEpmyPyjzGO'}
   - {icon: 'youtube', type: "brand", link: 'https://www.youtube.com/channel/UCjCsbAHwJUaRRVLdOaEnWxA'}
+  - {icon: 'twitter', type: "brand", link: 'https://twitter.com/LastMinutePol'}
   - {icon: 'envelope', type: "solid", link: 'mailto:lastminutepoliticspodcast@gmail.com'}
   - {icon: 'rss', type: "solid", link: "https://feed.podbean.com/lastminutepolitics/feed.xml"}
 
 websites-podcast:
   - {name: 'Apple Podcast', link: 'https://www.patreon.com/LastMinutePolitics'}
-  - {name: 'Spotify', link: 'https://open.spotify.com/show/18rMdpfy0mZxEpmyPyjzGO'}
-  - {name: 'YouTube', link: 'https://www.youtube.com/channel/UCjCsbAHwJUaRRVLdOaEnWxA'}
   - {name: 'Google Podcast', link: 'https://podcasts.google.com/feed/aHR0cHM6Ly9mZWVkLnBvZGJlYW4uY29tL2xhc3RtaW51dGVwb2xpdGljcy9mZWVkLnhtbA'}
+  - {name: 'Podbean', link: 'https://lastminutepolitics.podbean.com/'}
+  - {name: 'Spotify', link: 'https://open.spotify.com/show/18rMdpfy0mZxEpmyPyjzGO'}
+  - {name: 'Tunein + Alexa', link: 'https://tunein.com/podcasts/News--Politics-Podcasts/Last-Minute-Politics-p1385646/'}
+  - {name: 'YouTube', link: 'https://www.youtube.com/channel/UCjCsbAHwJUaRRVLdOaEnWxA'}
   - {name: 'RSS', link: 'https://feed.podbean.com/lastminutepolitics/feed.xml'}
 
 translate-date: true #See _includes/date.html to translate the months' name
-shownotes: true
+shownotes: false
 
 #Disqus
 disqus:

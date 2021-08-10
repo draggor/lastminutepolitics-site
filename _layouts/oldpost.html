@@ -11,37 +11,31 @@ layout: default
                   {% unless forloop.last %}&nbsp;{% endunless %} 
                 {% endfor %}
         </div>
-
-        <br />
-
         <h2>{{page.title}}</h2>
-
-        <br />
-        <br />
 
         {% if post.cover %}
                 <img src="{{post.cover}}" alt="Podcast Cover">
+        {% else %}
+                <img src="{{ "/assets/img/Podcast_Cover_500.jpg" | absolute_url}}" alt="Podcast Cover">
         {% endif %}
         
         <p>{{page.description}}</p>
+
+        {% capture file %}
+                {{- page.file -}}
+        {% endcapture %}
+        {% capture title %}
+                {{- page.title -}}
+        {% endcapture %}
+
+        {% include player.html file = file title = title %}
 
         {% if page.videoid %}
                 {% include video.html videoid = page.videoid %}
         {% endif %}
 
-        <br />
-        <br />
-
-        {% include podbean.html src=page.src title=page.title %}
-
-        <br />
-        <br />
-
         {{ content }}
 
-        <br />
-
-        <h4>Footnotes</h4>
         <ul>
         {% assign footnotes = page.footnotes %}
         {% for footnote in footnotes %}

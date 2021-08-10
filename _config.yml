@@ -8,8 +8,7 @@ author:
   name: "Draggor"
   email: "draggor@gmail.com"
   url: "https://draggor.me"
-permalink: pretty
-permalink: /:title
+permalink: /:year-:month-:day_:title
 keywords: [podcast, jekyll, politics, furry]
 
 #Plugins

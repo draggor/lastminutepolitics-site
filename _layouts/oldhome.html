@@ -3,7 +3,17 @@ layout: default
 ---
 {% for post in paginator.posts %}
 
+
 <div class="post">
+
+    <div class = "cover-img">
+      {% if post.cover %}
+        <img src="{{post.cover}}" alt="Podcast Cover">
+      {% else %}
+        <img src="{{ "/assets/img/Podcast_Cover_Small.jpg" | absolute_url}}" alt="Podcast Cover">
+      {% endif %}
+    </div>
+
     <div class = title>
         <h2 id = "post-title"><a href="{{ post.url  | absolute_url }}">{{ post.title }}</a></h2>
 
@@ -18,16 +28,18 @@ layout: default
         </div>
     </div>
 
-    {% include podbean.html src=post.src title=post.title %}
-    
+
+    {% include player.html file=post.file title=post.title %}
+
     <div class = "long-excerpt">
-      <p>
-        {% if post.description %}
-            {{post.description | strip_html | truncatewords:100}}
-        {% else %}
-            {{ post.content | strip_html | truncatewords:100 }}
-        {% endif %}
-      </p>
+        <p>
+            {% if post.description %}
+                {{post.description | strip_html | truncatewords:100}}
+            {% else %}
+                {{ post.content | strip_html | truncatewords:100 }}
+            {% endif %}
+            <span class = "continue-reading"><a href="{{ post.url | absolute_url }}">Continue</a></span> 
+        </p> 
     </div>
 
     <div class = "short-excerpt">
@@ -40,6 +52,7 @@ layout: default
             <span class = "continue-reading"><a href="{{ post.url | absolute_url }}">Continue</a></span> 
         </p> 
     </div>
+
 </div>
 {% endfor %}
 
